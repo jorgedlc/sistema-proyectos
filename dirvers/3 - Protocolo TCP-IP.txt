@@ -1,0 +1,9 @@
+*Ir a SQL Server configuration manager 
+*Seleccionar SQL Server Network Configuration
+*Seleccionar Protocols for SQLEXPRESS
+*Dar click derecho ne TCP/IP y dar enabled
+*Dar click en la pestaña de IP Addresses
+*Ir a la seccion de IPALL y en TCP Port definir 1433
+*Seleccionamos SQL Server Services
+*Seleccionar en panel derecho SQL Server (MSS..
+*Dar reiniciar en aultimo icono de la derecha Restart Services

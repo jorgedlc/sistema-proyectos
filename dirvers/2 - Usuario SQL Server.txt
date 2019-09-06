@@ -1,0 +1,17 @@
+*Iniciar SQL Server 
+*Hacer click derecho en el nombre del servidor
+*Seleccionar Security
+*En Server authentication seleccionar SQL Server and Windows mode
+*Seleccionar ok 
+*Click derecho en el nombre del servidor 
+*Seleccionar reestar y dar si a los cuadrod de dialogo
+*Ir Secutity 
+*Ir a Logins 
+*Dar click derecho sobre "sa" y seleccionar properties
+*Seleccionar Status
+*En el apartado de Login seleccionar Enabled
+*Seleccionar General
+*Cambiar la contraseña y la confirmacion de la contraseña del usuario por 
+Contraseña: utec2019
+*Seleccionar ok
+

@@ -1,0 +1,7 @@
+1)Instalar el driver  msodbcsql_17.4.1.1_x86.msi
+2)Copiar los archivos  
+*php_pdo_sqlsrv_72_ts_x86.dll
+*php_sqlsrv_72_ts_x86.dll
+en mi caso usando xampp a la ruta C:\xampp\php\ext
+
+
