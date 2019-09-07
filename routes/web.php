@@ -15,4 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/roles','PruebaController@roles');
+Route::resource('login','loginController');
