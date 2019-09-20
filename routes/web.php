@@ -20,3 +20,6 @@ Route::get('/', function () {
 });
 
 Route::resource('login','loginController');
+
+
+return View('proyectos.proyectos');
