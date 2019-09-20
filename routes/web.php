@@ -22,4 +22,5 @@ Route::get('/', function () {
 Route::resource('login','loginController');
 
 
-return View('proyectos.proyectos');
+Route::get('proyectos','ProyectosController@index');
+Route::get('detalle','ProyectosController@detalleProyecto');
