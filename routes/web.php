@@ -22,6 +22,9 @@ Route::get('/registro',function(){
     return View('registro');
 });
 
+Route::get('/crear_proyecto' , 'ProyectosController@crearProyecto' );
+
+
 Route::post('/ingresar','loginController@ingresar');
 Route::post('/registrar' ,'UsuariosController@registrarUsuario');
 

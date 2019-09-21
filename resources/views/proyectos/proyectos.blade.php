@@ -250,4 +250,169 @@
 
                 </div>
                 
+
+                
+  <!-- Modal presupuesto -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Agregar recurso</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+          
+            <div class="row">
+
+                <div class="col-md-12">
+
+                  <div class="form-group">
+                    <label for="">Nombre del recurso</label>
+                    <input type="text" name="" id="" class="form-control">
+                  </div>
+
+                </div>
+
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="">Tipo de recurso</label>
+                        <select name="" id="" class="form-control select2" style="width: 100%;">
+                          <option value="">Tipo 1</option>
+                          <option value="">Tipo 2</option>
+                          <option value="">Tipo 3</option>
+                          <option value="">Tipo 4</option>
+                        </select>
+                      </div>                        
+                </div>
+               
+
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="">Cantidad</label>
+                        <input type="text" name="" id="" class="form-control">
+                      </div>
+                </div>
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label for="">Costo Unitario</label>
+                    <input type="text" name="" id="" class="form-control">
+                  </div>
+
+                </div>
+               
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="">Costo Total</label>
+                        <input type="text" name="" id="" class="form-control" disabled>
+                      </div>
+                </div>
+               
+              </div>
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button class="btn btn-primary">Agregar</button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  <!--Modal presupuesto-->
+
+  <div class="modal" id="myModal2">
+      <div class="modal-dialog">
+        <div class="modal-content">
+    
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Agregar Actvidad</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row">
+
+              
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="">Nombre de la Actividad</label>
+                        <input type="text" name="" id="" class="form-control">
+                      </div>      
+                </div>
+
+
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="">Responsable</label>
+                        <input type="date" name="" id="" class="form-control">
+                    </div>
+
+                  </div>
+                
+                  <div class="col-md-12">
+
+                      <div class="form-group">
+                          <label for="">Duracion</label>
+                          <input type="text" name="" id="" class="form-control">
+                        </div>
+  
+                  </div>
+                  
+
+                  <div class="col-md-12">
+                      <div class="form-group">
+                          <label for="">Fecha de inicio</label>
+                          <input type="date" name="" id="" class="form-control">
+                      </div>
+
+                  </div>
+
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="">Fecha Finalizacion</label>
+                        <input type="date" name="" id="" class="form-control">
+                    </div>
+
+                </div>
+
+            </div>
+          </div>
+    
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button class="btn btn-primary">Agregar</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+          </div>
+    
+        </div>
+      </div>
+  </div>
+
+
+  <!-- Logout Modal-->
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">Selecciona "Cerrar Sesion" para salir.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
+          <a class="btn btn-primary" href="index.html">Cerrar Sesion</a>
+        </div>
+      </div>
+    </div>
+  </div>
 @endsection

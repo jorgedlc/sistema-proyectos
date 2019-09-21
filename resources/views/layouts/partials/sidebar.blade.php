@@ -33,9 +33,9 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Proyectos:</h6>
-            <a class="collapse-item" href="solicitudes.html">Solicitudes</a>
-            <a class="collapse-item" href="cards.html">Seguimiento</a>
-            <a class="collapse-item" href="crear_proyecto.html">Crear Proyecto</a>
+            <a class="collapse-item" href="proyectos">Proyectos</a>
+            <a class="collapse-item" href="#">Seguimientos</a>
+            <a class="collapse-item" href="crear_proyecto">Crear Proyecto</a>
           </div>
         </div>
       </li>
